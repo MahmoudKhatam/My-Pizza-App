@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.application.mypizzaapp.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:id="@+id/lOne"
+                >
+
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/pizzavegt"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Veg Pizza"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/cast_expanded_controller_background_color" />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text=" description description des"
+                     android:textStyle="italic"
+                     android:layout_margin="10dp"
+                     />
+
+                </LinearLayout>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_buttons_orange"
+                    android:text="order"
+                    android:textSize="18sp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:onClick="buttonOne"
+                    />
+
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:id="@+id/lTwo"
+            >
+
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="80dp"
+                android:background="@drawable/pizzavegt"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Veg Pizza"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/cast_expanded_controller_background_color" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" description description des"
+                    android:textStyle="italic"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_buttons_orange"
+                android:text="order"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/cast_expanded_controller_background_color"
+                android:onClick="buttonTwo"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:id="@+id/lThree"
+            >
+
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="80dp"
+                android:background="@drawable/pizzavegt"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Veg Pizza"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/cast_expanded_controller_background_color" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" description description des"
+                    android:textStyle="italic"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_buttons_orange"
+                android:text="order"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/cast_expanded_controller_background_color"
+                android:onClick="buttonThree"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:id="@+id/lFour"
+            >
+
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="80dp"
+                android:background="@drawable/pizzavegt"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Veg Pizza"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/cast_expanded_controller_background_color" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" description description des"
+                    android:textStyle="italic"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_buttons_orange"
+                android:text="order"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/cast_expanded_controller_background_color"
+                android:onClick="buttonFour"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:id="@+id/lFive"
+            >
+
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="80dp"
+                android:background="@drawable/pizzavegt"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Veg Pizza"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/cast_expanded_controller_background_color" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" description description des"
+                    android:textStyle="italic"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_buttons_orange"
+                android:text="order"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/cast_expanded_controller_background_color"
+                android:onClick="buttonFive"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:id="@+id/lSix"
+            >
+
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="80dp"
+                android:background="@drawable/pizzavegt"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Veg Pizza"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/cast_expanded_controller_background_color" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" description description des"
+                    android:textStyle="italic"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_buttons_orange"
+                android:text="order"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/cast_expanded_controller_background_color"
+                android:onClick="buttonSix"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:id="@+id/lSeven"
+            >
+
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="80dp"
+                android:background="@drawable/pizzavegt"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Veg Pizza"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/cast_expanded_controller_background_color" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" description description des"
+                    android:textStyle="italic"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_buttons_orange"
+                android:text="order"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/cast_expanded_controller_background_color"
+                android:onClick="buttonSeven"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:id="@+id/lEight"
+            >
+
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="80dp"
+                android:background="@drawable/pizzavegt"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Veg Pizza"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/cast_expanded_controller_background_color" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" description description des"
+                    android:textStyle="italic"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_buttons_orange"
+                android:text="order"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/cast_expanded_controller_background_color"
+                android:onClick="buttonEight"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
